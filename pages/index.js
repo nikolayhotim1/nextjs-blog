@@ -11,7 +11,8 @@ export default function Home() {
 			<section className={utilStyles.headingMd}>
 				<p>
 					Hi! I'm <b>Nikolay</b>, a frontend engineer with 2 years of experience. My main technology stack:
-					React.js, Next.js, Redux, TypeScript. You can contact me on LinkedIn.
+					React.js, Next.js, Redux, TypeScript. You can contact me on{' '}
+					<a href='https://www.linkedin.com/in/nikolayhotim/'>LinkedIn</a>.
 				</p>
 				<p>
 					(This is a sample website - you'll be building a site like this on{' '}
