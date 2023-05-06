@@ -21,10 +21,20 @@ export default function Home({
 				<title>{siteTitle}</title>
 			</Head>
 			<section className={utilStyles.headingMd}>
-				<p>[Your Self Introduction]</p>
 				<p>
-					(This is a sample website - you’ll be building a site like this in{' '}
-					<a href='https://nextjs.org/learn'>our Next.js tutorial</a>.)
+					Hi! I'm <b>Nikolay</b>, a frontend engineer with 2 years of experience. My main technology stack:
+					React.js, Next.js, Redux, TypeScript. You can contact me on{' '}
+					<a href='https://www.linkedin.com/in/nikolayhotim/' target={'_blank'}>
+						LinkedIn
+					</a>
+					.
+				</p>
+				<p>
+					(This is a sample website - you'll be building a site like this in{' '}
+					<a href='https://nextjs.org/learn' target={'_blank'}>
+						our Next.js tutorial
+					</a>
+					.)
 				</p>
 			</section>
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
